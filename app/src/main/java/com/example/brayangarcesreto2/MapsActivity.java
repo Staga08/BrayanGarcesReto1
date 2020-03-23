@@ -146,7 +146,7 @@
                         customM.setSnippet("Usted esta a "+ String.format("%.1f", distance)+" mts de aqui.");
                         btnClicked=false;
                         markers.add(customM);
-                         updateInfo();
+                         deployInfo();
 
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -304,7 +304,7 @@
 
         }
 
-        public void updateInfo() {
+        public void deployInfo() {
 
             if (markers.size() > 0) {
                 locationTxt.setText(theDistanceIs());
