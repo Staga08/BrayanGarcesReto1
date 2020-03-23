@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/pin"
+        map:backgroundTint="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/locationTxt"
+        android:layout_width="411dp"
+        android:layout_height="143dp"
+        android:background="#CD3F51B5"
+        android:backgroundTint="#E62196F3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom|center"
+
+/>
+
+
+
+
+
+
+
+</fragment>
+
+
+
