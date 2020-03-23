@@ -30,6 +30,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_gravity="bottom|center"
+        android:gravity="top"
 
 />
 

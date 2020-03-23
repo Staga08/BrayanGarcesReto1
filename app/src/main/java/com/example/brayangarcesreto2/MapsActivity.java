@@ -81,6 +81,7 @@
             mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
             addMarker = findViewById(R.id.addMarker);
             locationTxt=findViewById(R.id.locationTxt);
+
             addMarker.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -202,6 +203,7 @@
                         //Si tengo los permisos luego ya cargo el getMapAsync() IMPORTANTISIMO
                         mapFragment.getMapAsync(this);
                         getToMe();
+                        deployInfo();
 
 
                     } else {
